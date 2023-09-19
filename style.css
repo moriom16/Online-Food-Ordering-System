@@ -1,0 +1,163 @@
+
+	*{margin:0;padding:0}
+body{
+	background-color:white;
+	
+}
+#wrapper{
+	width:960px;
+	margin:0 auto;
+}
+.nav-link{
+    color:black;
+    }
+
+.content{
+	width:960px;
+	padding-top:25px;
+}
+
+
+
+.carousel-inner{
+	
+	
+	height:32rem;
+	background:#777;
+	color:white;
+	position:relative;
+	
+	text-align:center;
+
+	}
+
+.carousel-item{
+	height:28rem;
+	min-height:28rem;
+	background:no-repeat scroll center scroll;
+	background-size:cover;
+}
+.carousel-item::before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background:black;
+	opacity:70%;
+}
+.container{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	padding-bottom:50px;
+
+
+}
+.overlay_image{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	top:0;
+	background-position:center;
+	background-size:cover;
+}
+
+	#content_wrapper{
+	
+	align-content:center;
+	background-color:#fff;
+	padding:10px;
+	overflow:hidden;
+	display:block;
+}
+
+.article_nav{
+	background-color:#C5C5C5;
+	margin:10px 20px 20px 0;
+	
+}
+
+.article_nav ul{
+	list-style-type: none;
+}
+.article_nav ul li{
+	display:inline-block;
+}
+.article_nav ul li a{
+	text-decoration:none;
+	color:black;
+	font-size:18px;
+	font-weight:500;
+	
+	padding: 10px;
+	margin-right:15px;
+}
+.article_nav ul li a:hover{
+	opacity:75%;
+	border-bottom:3px solid orangered;
+}
+.content{
+	width:590px;
+	margin-right: 40px;
+	float:left;
+}
+
+.content h3{
+	color:black;
+	font-family:arial;
+	font-size:20px;
+	margin-bottom:5px;
+	margin-top:10px;
+}
+.content img{
+	width:450px;
+	margin:0 auto;
+	display:block;
+}
+.content p{
+	color:black;
+	margin:15px 0;
+	text-align:justify;
+	font-size:15px;
+}
+.sidebar{
+	width:300px;
+	float:left;
+	margin-bottom:25px;
+	margin-top:10px;
+	border-bottom:2px solid #fd6609;
+}
+
+.sidebar ul li a{
+	text-decoration:none;
+	color:black;
+	display:block;
+}
+
+.main_article_single{
+	margin-bottom:25px;
+	border-bottom:1px solid #fd6609;
+	overflow:hidden;
+	
+}
+
+.imgp_wrap img{
+	width:75px;
+	height:75px;
+	background:#fd6609;
+	border:2px solid #ddd;
+	padding:3px;
+	margin-right:10px;
+	float:left;
+}
+
+.imgp_wrap{
+	margin-top:10px;
+	
+	
+}
